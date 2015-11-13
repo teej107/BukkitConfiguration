@@ -17,6 +17,9 @@ public class CustomConfiguration
 		load();
 	}
 
+	/**
+	 * Loads the configuration. You can use this to reload it as well.
+	 */
 	public void load()
 	{
 		config = YamlConfiguration.loadConfiguration(file);
@@ -24,6 +27,9 @@ public class CustomConfiguration
 		// Do any other necessary things here too
 	}
 
+	/**
+	 * Saves the configuration
+	 */
 	public void save()
 	{
 		try
